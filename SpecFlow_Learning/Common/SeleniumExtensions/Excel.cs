@@ -26,7 +26,7 @@ namespace SpecFlow_Learning.Common.SeleniumExtensions
                 string templatesPath = solutionPath + "\\Templates\\";
                 string currentTemplatePath = solutionPath + "\\Templates\\" + templateName;
 
-
+                //Comandos Excel
                 Application excel = new Application();
                 Workbook wb;
                 Worksheet ws;
