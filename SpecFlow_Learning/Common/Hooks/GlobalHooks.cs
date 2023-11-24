@@ -17,7 +17,7 @@ namespace SpecFlow_Learning
         [BeforeScenario]
         public void BeforeScenario()
         {            
-            /*List<string> tags = Scenario.ScenarioInfo.Tags.ToList();
+            List<string> tags = Scenario.ScenarioInfo.Tags.ToList();
             bool result = tags.Contains(ConfigurationManager.AppSettings["Environment"]);
             if (!result)
             {
@@ -25,10 +25,12 @@ namespace SpecFlow_Learning
                 Assert.Ignore();                
             }
             else
-            {*/
+            {
                 Console.WriteLine("TEST INITIALIZED!");
+                Console.WriteLine($"TEST SCENARIO NAME = " + Scenario.ScenarioInfo.Title.ToString());
+                Console.WriteLine("-------------------------------------------------------------------------");
                 SetBrowser();
-            //}                        
+            }                        
         }
 
 
