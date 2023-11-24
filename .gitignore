@@ -28,6 +28,7 @@ syntax: glob
 *.dbmdl
 *.DotSettings
 *.jfm
+bin/Debug*/
 [Bb]in
 [Dd]ebug*/
 obj/
