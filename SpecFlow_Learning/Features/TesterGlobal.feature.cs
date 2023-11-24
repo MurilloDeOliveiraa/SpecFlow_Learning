@@ -85,13 +85,15 @@ namespace SpecFlow_Learning.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Search for an item on the search bar")]
         [NUnit.Framework.CategoryAttribute("QA")]
+        [NUnit.Framework.CategoryAttribute("SmokeTest")]
         [NUnit.Framework.TestCaseAttribute("Camera", null)]
         [NUnit.Framework.TestCaseAttribute("Black pants", null)]
         [NUnit.Framework.TestCaseAttribute("Black trousers", null)]
         public void SearchForAnItemOnTheSearchBar(string product, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "QA"};
+                    "QA",
+                    "SmokeTest"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -127,11 +129,13 @@ this.FeatureBackground();
         [NUnit.Framework.DescriptionAttribute("Search for an specific product\'s category, add first item to the cart and check t" +
             "he cart")]
         [NUnit.Framework.CategoryAttribute("QA")]
+        [NUnit.Framework.CategoryAttribute("SmokeTest")]
         [NUnit.Framework.TestCaseAttribute("Calçados", "Snaeakers", null)]
         public void SearchForAnSpecificProductsCategoryAddFirstItemToTheCartAndCheckTheCart(string category, string product, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "QA"};
+                    "QA",
+                    "SmokeTest"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -174,10 +178,12 @@ this.FeatureBackground();
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add a new user to our HR spreadsheet")]
         [NUnit.Framework.CategoryAttribute("QA")]
+        [NUnit.Framework.CategoryAttribute("SmokeTest")]
         public void AddANewUserToOurHRSpreadsheet()
         {
             string[] tagsOfScenario = new string[] {
-                    "QA"};
+                    "QA",
+                    "SmokeTest"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a new user to our HR spreadsheet", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 28

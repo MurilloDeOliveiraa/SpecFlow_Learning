@@ -83,8 +83,8 @@ C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\bin\Debug\Tech
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\bin\Debug\TechTalk.SpecFlow.xml
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.csproj.AssemblyReference.cache
+C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.csproj.ResolveComReference.cache
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.csproj.CoreCompileInputs.cache
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.csproj.CopyComplete
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.exe
 C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.pdb
-C:\Users\Murillo\source\repos\SpecFlow_Learning\SpecFlow_Learning\obj\Debug\SpecFlow_Learning.csproj.ResolveComReference.cache
