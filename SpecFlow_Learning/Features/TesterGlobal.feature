@@ -3,7 +3,7 @@
 Background:
 	Given I navigate to the home page
 
-@QA 
+@QA @SmokeTest
 Scenario Outline: Search for an item on the search bar	
 	When I search for <Product> product 
 	Then I'm redirected to the <Product> page
@@ -13,7 +13,7 @@ Examples:
 | Black pants    |
 | Black trousers |
 
-@QA
+@QA @SmokeTest
 Scenario Outline: Search for an specific product's category, add first item to the cart and check the cart
 	When I select the <Category> category 
 	Then I'm redirected to the <Product> page
@@ -24,7 +24,7 @@ Examples:
 | Calçados | Snaeakers |
 
 
-@QA
+@QA @SmokeTest
 Scenario: Add a new user to our HR spreadsheet
 	Given I fill the "Add_User_Template.xlsx" with the user informations
 	| Field | Value    |
