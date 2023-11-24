@@ -38,6 +38,7 @@ namespace SpecFlow_Learning
         public void AfterScenario()
         {
             Console.WriteLine("TEST FINISHED!");
+            Console.WriteLine("-------------------------------------------------------------------------");
             if (!getDriver().Equals(null))
             {
                 getDriver().Close();
