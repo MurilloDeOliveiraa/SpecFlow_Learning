@@ -17,7 +17,7 @@ namespace SpecFlow_Learning
         [BeforeScenario]
         public void BeforeScenario()
         {            
-            List<string> tags = Scenario.ScenarioInfo.Tags.ToList();
+            List<string> tags = Scenario.ScenarioInfo.Tags.ToList();  //Checking if the scenario contains the current tag
             bool result = tags.Contains(ConfigurationManager.AppSettings["Environment"]);
             if (!result)
             {
